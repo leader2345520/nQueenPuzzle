@@ -10,8 +10,9 @@ class Solution {
 		}
 
 		private void init(char[][] board) {
-			for (int i = 0; i < board.length; i++) {
-				Arrays.fill(board[i], '.');
+			for (char[] row : board) {
+				Arrays.fill(row, '.');
+
 			}
 
 		}
